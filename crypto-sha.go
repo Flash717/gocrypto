@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func cryptoSha() {
 	h := sha256.New()
 	h.Write([]byte("Secret password\n"))
 	fmt.Printf("%x", h.Sum(nil))

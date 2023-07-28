@@ -9,7 +9,7 @@ import (
 	"io"
 )
 
-func main() {
+func cryptoAES() {
 	key := []byte("YourPasswordMustBe32BitforAES256")
 
 	var plainText = "Very sensitive secret data"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func cryptoDES() {
 	key := "mysecretPasswordKeySiz24"
 	plainText := "Secret12"
 
